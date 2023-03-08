@@ -56,7 +56,7 @@ margin: 0 auto;
   padding: 20px;
   padding-left: 0;
   padding-bottom: 120px;
-  width: 220px;
+  width: 250px;
   font-size: smaller;
   /* debug */
   color: #5B5B5B;
@@ -163,7 +163,6 @@ margin: 0 auto;
   margin-top: 10px;
 }
 
-
 .side-menu-small  {
   position: fixed;
   top: 0 ;
@@ -236,8 +235,9 @@ header .container {
 /* Main */
 main {
   background-color: #141922;
+  height: 100%;
   padding-top: 100px;
-  padding-left: 240px;
+  padding-left: 270px;
   padding-bottom: 100px;
   
 }
@@ -360,7 +360,8 @@ main .playlist-name {
 
 .song {
   height: 100%;
-  width: 170px;
+  width: 120px;
+  margin-right: 10px;
 }
 
 .song .container-song img{
@@ -390,14 +391,13 @@ main .playlist-name {
 
 .controls {
   height: 100%;
-  min-width: 320px;
+  min-width: 190px;
   width: 700px;
   color: white;
-  margin: 0 20px;
 }
 
 .controls .control-panel{
-  width: 300px;
+  width: 190px;
   margin: 0 auto;
   height: 50%;
   justify-content: space-between;
@@ -474,7 +474,7 @@ main .playlist-name {
 
 .volume-bar{
   height: 3px;
-  width: 200px;
+  width: 100%;
   margin-right: 10px;
   background-color: #5B5B5B;
 }
@@ -509,6 +509,10 @@ main .playlist-name {
   main .row .col{
     width: calc(100% / 2);
     min-width: 150px;
+  }
+
+  .playbar .song{
+    margin-left: 0;
   }
 
 }
