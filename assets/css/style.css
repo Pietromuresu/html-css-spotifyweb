@@ -10,6 +10,14 @@ body {
   position: relative;
   font-family: 'Open Sans', sans-serif;
 }
+
+.active {
+  border-top: 3px solid #ACFD2F;
+  border-radius: 10px;
+  width: 20%;
+  margin: 0 auto;
+
+}
 /* /General */
 
 
@@ -109,11 +117,16 @@ main nav ul{
   flex-wrap: wrap;
   list-style: none;
 }
+main nav ul li{
+  margin-bottom: 20px;
+}
 
 main nav ul li a {
   text-decoration: none;
   margin: 20px;
   color: #7E8084;
+  font-weight: bold;
+  
 }
 
 main .container-row {
