@@ -17,7 +17,7 @@
   <title>Spotify Sample</title>
 </head>
 <body> 
-  <section class="side-menu-small d-flex">
+  <section class="side-menu-small d-flex p-fixed">
     <div class="container-side-small  ">
       <div class="small-top">
         <div class="favicon">
@@ -63,7 +63,7 @@
   
   <section class="side-menu">
    
-    <div class="container-side">
+    <div class="container-side p-fixed">
       <div class="side-top">
         <div class="logo padding-l-20">
           <a href="#">
@@ -93,7 +93,7 @@
         </div>
 
         <div class="playlist padding-l-20">
-          <h2>PLAYLIST</h2>
+          <h2 class="font-sz-15 ">PLAYLIST</h2>
           <div class="add-playlist">
             <i class="fa-sharp fa-solid fa-square-plus"></i>
             <span>Crea Playlist</span>
@@ -101,7 +101,7 @@
 
           <div>
             <div class="scroll">
-              <ul>
+              <ul class="d-block">
               <li><a href="#">Nome Playlist</a></li>
               <li><a href="#">Nome Playlist</a></li>
               <li><a href="#">Nome Playlist</a></li>
@@ -118,14 +118,14 @@
       <div class="side-bottom padding-l-20">
         <div class="installa">
           <a href="#">
-            <i class="fa-regular fa-circle-down"></i>
+            <i class="fa-regular fa-circle-down font-sz-15"></i>
             Installa App 
           </a>
         </div>
 
         <hr>
 
-        <div class="account">
+        <div class="account font-sz-15">
           <a href="#">
             <i class="fa-solid fa-circle-user"></i>
             Jhon Doe
@@ -138,7 +138,7 @@
   </section>
  
  
-  <header class="d-flex ">
+  <header class="d-flex p-fixed">
     <div class="container d-flex">
 
 
@@ -286,7 +286,7 @@
         <div class="for-you">
           <div class="playlist-name">
             <h1>Creato per Pietro</h1>
-            <p>
+            <p class="font-sz-15">
               Più ascolti, più accurati saranno i suggerimenti
             </p>
           </div>
@@ -363,7 +363,7 @@
   </main>
 
 
-  <section class="playbar">
+  <section class="playbar p-fixed">
     <div class="container  d-flex">
 
       <div class="currrent-song d-flex ">
@@ -371,7 +371,7 @@
           <div class="container-song d-flex">
             <img src="assets/img/sinister.jpeg" alt="">
             <div class="song-data">
-              <span class="title"> Sinister</span>
+              <span class="title d-block"> Sinister</span>
               <span class="artist">Horror</span>
             </div>
             
