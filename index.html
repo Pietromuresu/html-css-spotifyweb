@@ -4,10 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<!-- Fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Spotify Sample</title>
 </head>
-<body>
+<body> 
+  <section class="side-menu-small">
+    <div class="container-side-small">
+
+    </div>
+  </section>
   <section class="side-menu">
    
     <div class="container-side">
@@ -18,102 +32,200 @@
   </section>
  
  
-  <header class="debug">
+  <header class="d-flex ">
     <div class="container d-flex">
 
 
       <div class="upgrade-btn">
-        EFFETTUA L'UPGRADEq
+        <a href="#">
+          EFFETTUA L'UPGRADE
+        </a>
       </div>
 
     </div>
 
   </header>
   <main>
-    <div class="container debug">
+    <div class="container ">
 
-      <div class="menu-playlist debug">
+      <div class="menu-playlist ">
         <nav>
-           <ul class="d-flex">
-          <li><a href="#">LINK</a></li>
-          <li><a href="#">LINK</a></li>
-          <li><a href="#">LINK</a></li>
-          <li><a href="#">LINK</a></li>
-          <li><a href="#">LINK</a></li>
-          <li><a href="#">LINK</a></li>
+          <ul class="d-flex">
+          <li><a href="#">IN EVIDENZA</a></li>
+          <li><a href="#">PODCAST</a></li>
+          <li><a href="#">CLASSIFICHE</a></li>
+          <li><a href="#">GENERI E MOOD</a></li>
+          <li><a href="#">NUOVE USCITE</a></li>
+          <li><a href="#">SCOPRI</a></li>
         </ul>
         </nav>
       </div>
 
-      <div class="container">
+      <div class="container-row">
         <div class="recent">
           <div class="playlist-name">
-            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Recently palyed</h1>
           </div>
           <div class="row d-flex">
-            <div class="col debug">
+            <div class="col ">
               <div class="card">
-
+                  <div class="img d-flex">
+                    <img src="assets/img/metal_lifting.jpg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> Heavy Metal </span>
+                    <span class="subtitle"> Subtitle</span>
+                  </div>
               </div>
             </div>
-            <div class="col debug">
+   
+            <div class="col ">
               <div class="card">
-
+                  <div class="img d-flex">
+                    <img src="assets/img/stranger.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack) </span>
+                    <span class="subtitle"> Kyle dixon & Michael stein</span>
+                  </div>
               </div>
             </div>
-            <div class="col debug">
+   
+            <div class="col ">
               <div class="card">
-
+                  <div class="img d-flex">
+                    <img src="assets/img/aquietplace.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> A quiet Place  </span>
+                    <span class="subtitle"> Subtitle</span>
+                  </div>
               </div>
             </div>
-            <div class="col debug">
+   
+            <div class="col ">
               <div class="card">
-
+                  <div class="img d-flex">
+                    <img src="assets/img/split.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> Split </span>
+                    <span class="subtitle"> Subtitle</span>
+                  </div>
               </div>
             </div>
-            <div class="col debug">
+   
+            <div class="col ">
               <div class="card">
-
+                  <div class="img d-flex">
+                    <img src="assets/img/cure.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> A cure fo wellness </span>
+                    <span class="subtitle"> Subtitle</span>
+                  </div>
               </div>
             </div>
-            <div class="col debug">
+   
+            <div class="col ">
               <div class="card">
-          
+                  <div class="img d-flex">
+                    <img src="assets/img/sinister.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> Sinister </span>
+                    <span class="subtitle"> Subtitle</span>
+                  </div>
               </div>
             </div>
+   
           </div>  
 
         <div class="for-you">
           <div class="playlist-name">
-            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Creato per Pietro</h1>
           </div>
           <div class="row d-flex">
-           
-            <div class="col debug">
+            <div class="col ">
               <div class="card">
-
+                  <div class="img d-flex">
+                    <img src="assets/img/radar.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> Release Radar </span>
+                  </div>
               </div>
             </div>
-            <div class="col debug">
+
+            <div class="col ">
               <div class="card">
-          
+                  <div class="img d-flex">
+                    <img src="assets/img/mixdaily.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> Daily Mix 1 </span>
+                  </div>
               </div>
             </div>
           </div>  
 
         <div class="most-popular">
           <div class="playlist-name">
-            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Artisti più popolari</h1>
           </div>
           <div class="row d-flex">
-            <div class="col debug">
+            <div class="col ">
               <div class="card">
-
+                  <div class="img d-flex">
+                    <img src="assets/img/youg.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  
+                  <div class="name">
+                    <span class="title"> Young And Beautiful </span>
+                    <span class="subtitle"> Lana Del Rey</span>
+                  </div>
               </div>
             </div>
-            <div class="col debug">
-              <div class="card">
 
+            <div class="col ">
+              <div class="card">
+                  <div class="img d-flex">
+                    <img src="assets/img/einaudi.jpeg" alt="">
+                    <div class="play-hover d-flex">
+                      <i class="fa-regular fa-play-circle"></i>
+                    </div>
+                  </div>
+                  <div class="name">
+                    <span class="title"> Einaudi </span>
+                    <span class="subtitle"> Subtitle</span>
+                  </div>
               </div>
             </div>
           
