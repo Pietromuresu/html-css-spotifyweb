@@ -62,15 +62,14 @@ margin: 0 auto;
 /* /Utilities */
 
 /* Side menu */
-.side-menu .container-side{
 
+.side-menu .container-side{
   top: 0 ;
   left: 0;
   z-index: 10;
   height: calc(100vh - 90px);
   padding: 20px;
   padding-left: 0;
-  padding-bottom: 120px;
   width: 250px;
   font-size: smaller;
   color: #5B5B5B;
@@ -126,47 +125,49 @@ margin: 0 auto;
   
 }
 
-
 .playlist div ul {
   list-style: none;
 }
-
 
 .playlist div ul li {
   line-height: 2rem;
 }
 
-.side-bottom {
-  position: absolute;
-  background-color: black;
-  bottom: 0;
-  padding-bottom: 5px;
-  width: 180px;
+/* scrollbar  */
+.playlist {
+  height: calc(100% - 110px);
 }
 
-.side-bottom .installa  {
-  font-size: 13px;
-  width: 100px;
+.container-playlist {
+  height: calc(100% - 110px);
+
+}
+
+.scroll {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.side-top {  
+  height: calc(100% - 100px);
+}
+
+.side-bottom {
+  margin-top: 50px;
+  padding-left: 10px ;
+  background-color: black;
+
+}
+/* /scrollbar */
+
+.side-bottom hr {
+  margin: 10px 0;
+  width: 100%;
 }
 
 .side-bottom .account {
-  width: 100%;
-}
-
-.side-bottom .account a {
   color: white;
-  font-weight: bold;
-  line-height: 25px;
-}
-
-.side-bottom .account i{
-  font-size: 25px;
-  margin-right: 5px;
-}
-
-.side-bottom hr {
-  width: 100%;
-  margin-top: 10px;
+  font-size: 1.1rem;
 }
 
 .side-menu-small  {
@@ -484,7 +485,8 @@ main .playlist-name {
 .volume{
   align-items: center;
   color: white;
-  width: 350px;
+  width: 100%;
+  max-width: 200px;
   height: 100%;
 
 }
