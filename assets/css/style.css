@@ -57,6 +57,8 @@ margin: 0 auto;
   font-size: 15px;
 } 
 
+
+
 /* /Utilities */
 
 /* Side menu */
@@ -71,7 +73,6 @@ margin: 0 auto;
   padding-bottom: 120px;
   width: 250px;
   font-size: smaller;
-  /* debug */
   color: #5B5B5B;
   background-color: black;
 }
@@ -102,6 +103,11 @@ margin: 0 auto;
 .side-menu div a{
   color: #5B5B5B;
 }
+
+.playlist a:hover {
+  color: white;
+}
+
 
 .playlist h2{
   margin-top: 20px;
@@ -252,6 +258,10 @@ main nav ul{
 }
 main nav ul li{
   margin-bottom: 20px;
+}
+
+main .menu-playlist ul li:hover a {
+  color: white;
 }
 
 main nav ul li a {
@@ -408,6 +418,23 @@ main .playlist-name {
   font-size: 40px;
 }
 
+.control-panel .shuffle:hover i{
+  font-size: 25px ;
+}
+.control-panel .backward:hover i{
+  font-size: 25px ;
+}
+.control-panel .play-btn:hover i.fa-circle-play{
+  font-size: 45px ;
+}
+
+.control-panel .forward:hover i{
+  font-size: 25px ;
+}
+.control-panel .repeat:hover i{
+  font-size: 25px ;
+}
+
 
 .minute-bar .bar{
   width: 90%;
@@ -498,7 +525,7 @@ main .playlist-name {
   }
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
 
   main .row .col{
     width: calc(100% / 2);
